@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en"
+  data-title-en="Ressa — Your everyday mirror."
+  data-title-zh="Ressa — 你的随身化妆镜。"
+  data-desc-en="Your everyday mirror, on iPhone. Adjustable screen light, a closer look at the details, and no added beauty filters. Join the Ressa TestFlight beta."
+  data-desc-zh="Ressa，你的 iPhone 随身化妆镜。调节补光，放大细节，定格查看，不额外添加美颜。现已开放 TestFlight 内测申请。">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ressa — Your everyday mirror.</title>
+  <meta name="description" content="Your everyday mirror, on iPhone. Adjustable screen light, a closer look at the details, and no added beauty filters. Join the Ressa TestFlight beta.">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <meta property="og:title" content="Ressa — Your everyday mirror.">
+  <meta property="og:description" content="Your everyday mirror, on iPhone. Adjustable screen light, a closer look at the details, and no added beauty filters. Join the Ressa TestFlight beta.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css?v=2">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Ressa",
+    "operatingSystem": "iOS 18",
+    "applicationCategory": "LifestyleApplication",
+    "description": "Your everyday mirror, on iPhone. Adjustable screen light, a closer look at the details, and no added beauty filters. Join the Ressa TestFlight beta.",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+  <script>
+    /* set active language before first paint to avoid a bilingual flash */
+    (function () {
+      var l = null;
+      try { l = localStorage.getItem("ressa-lang"); } catch (e) {}
+      if (l !== "en" && l !== "zh") {
+        l = ((navigator.languages && navigator.languages[0]) || navigator.language || "")
+          .toLowerCase().indexOf("zh") === 0 ? "zh" : "en";
+      }
+      document.documentElement.setAttribute("data-lang", l);
+    })();
+  </script>
+</head>
+<body>
+  <!-- PLACEHOLDERS: App Store URL pending launch — download buttons currently
+       invite users to the TestFlight beta via email (search "PLACEHOLDER: beta"). -->
+  <a class="skip-link" href="#main"><span class="lang-en">Skip to content</span><span class="lang-zh">跳到正文</span></a>
+
+  <header class="site-header on-dark">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ressa home">
+        <span class="brand-badge"><img src="assets/img/favicon.png" alt="Ressa logo" width="40" height="40"></span>
+        <span>RESSA</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#mirror"><span class="lang-en">Mirror</span><span class="lang-zh">镜面</span></a>
+        <a href="#light"><span class="lang-en">Light</span><span class="lang-zh">灯光</span></a>
+        <a href="#zoom"><span class="lang-en">Details</span><span class="lang-zh">细节</span></a>
+        <a href="#pro"><span class="lang-en">Pro</span><span class="lang-zh">Pro</span></a>
+        <a href="privacy.html"><span class="lang-en">Privacy</span><span class="lang-zh">隐私</span></a>
+        <a href="terms.html"><span class="lang-en">Terms</span><span class="lang-zh">条款</span></a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-toggle" role="group" aria-label="Language / 语言">
+          <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+          <button type="button" data-set-lang="zh" aria-pressed="false">中文</button>
+        </div>
+        <!-- PLACEHOLDER: beta — replace href with the App Store URL on launch -->
+        <a class="btn btn-gold btn-sm" href="mailto:dev.chua@gmail.com?subject=Ressa%20TestFlight%20beta">
+          <svg class="btn-icon" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+          <span class="lang-en">Join the beta</span><span class="lang-zh">申请内测</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-eyebrow" data-hero-seq><span class="dot"></span><span class="lang-en">YOUR EVERYDAY MIRROR</span><span class="lang-zh">你的随身化妆镜</span></p>
+          <h1 class="hero-title">
+            <span class="hero-line"><span class="lang-en">A moment</span><span class="lang-zh">留一点时间，</span></span>
+            <span class="hero-line"><span class="lang-en"><span class="accent">for yourself.</span></span><span class="lang-zh"><span class="accent">好好看看自己。</span></span></span>
+          </h1>
+          <p class="hero-sub" data-hero-seq><span class="lang-en">A quick touch-up. A closer look. Ressa turns your iPhone into a mirror, with adjustable light and the details right where you need them.</span><span class="lang-zh">出门前整理一下，补妆时再看仔细一点。Ressa 把 iPhone 变成一面随身镜，光线和细节，都可以调到刚刚好。</span></p>
+          <div class="hero-cta" data-hero-seq><a class="btn btn-gold" href="mailto:dev.chua@gmail.com?subject=Ressa%20TestFlight%20beta"><span class="lang-en">Join the beta</span><span class="lang-zh">申请内测</span></a><a class="btn btn-ghost" href="#mirror"><span class="lang-en">Explore Ressa</span><span class="lang-zh">了解 Ressa</span></a></div>
+          <p class="hero-note" data-hero-seq><span class="lang-en">For iPhone · iOS 18+ · Currently in TestFlight</span><span class="lang-zh">适用于 iPhone · iOS 18+ · TestFlight 内测中</span></p>
+        </div>
+        <div class="hero-stage">
+          <figure class="product-showcase">
+            <div class="product-switch" role="group" aria-label="Product preview / 产品预览">
+              <button type="button" data-product-view="free" aria-pressed="true"><span class="lang-en">Free mirror</span><span class="lang-zh">免费版</span></button>
+              <button type="button" data-product-view="pro" aria-pressed="false">Ressa Pro</button>
+            </div>
+            <div class="product-screen">
+              <img data-product-screen="free" class="" src="assets/img/product/free-mirror.png" width="402" height="874" alt="Ressa Free — 1× and 1.5× zoom, camera controls, brightness and light colors." fetchpriority="high" decoding="async">
+              <img data-product-screen="pro" hidden class="" src="assets/img/product/pro-mirror.png" width="402" height="874" alt="Ressa Pro — five zoom levels, unlocked camera controls and four light colors." loading="lazy" decoding="async">
+            </div>
+            <figcaption><span class="lang-en">Interface preview · Example portrait</span><span class="lang-zh">界面预览 · 人像为示例</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <div class="brand-strip"><div class="container"><span class="lang-en">A mirror, not a camera.</span><span class="lang-zh">是镜子，不是相机。</span><span class="brand-strip-note"><span class="lang-en">Your face. Your light. Your moment.</span><span class="lang-zh">照见自己，刚刚好。</span></span></div></div>
+
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head" data-reveal><p class="eyebrow"><span class="lang-en">THE EVERYDAY MOMENTS</span><span class="lang-zh">日常里的小需要</span></p><h2><span class="lang-en">For the little checks that matter.</span><span class="lang-zh">那些想照一下镜子的时刻。</span></h2><p class="section-sub"><span class="lang-en">Before you leave, between plans, or just before you walk in.</span><span class="lang-zh">出门前、约会前，或是忙碌一天里，留给自己的片刻。</span></p></div>
+        <div class="card-grid three" data-reveal>
+          <article class="card"><p class="card-index">01 / ON THE GO</p><h3><span class="lang-en">A mirror, within reach</span><span class="lang-zh">手边，刚好有面镜子</span></h3><p><span class="lang-en">A lipstick touch-up at your desk. A quick check on the train. Open Ressa whenever you need a mirror.</span><span class="lang-zh">在办公室补个口红，在高铁上整理妆容。需要镜子时，拿起手机就好。</span></p></article>
+          <article class="card"><p class="card-index">02 / IN YOUR LIGHT</p><h3><span class="lang-en">A little more light</span><span class="lang-zh">光线暗一点，也从容</span></h3><p><span class="lang-en">When the room feels too dim, bring the screen light up to a comfortable level.</span><span class="lang-zh">房间有些暗，就把补光调亮一点。亮度由你掌握，照镜子也更舒服。</span></p></article>
+          <article class="card"><p class="card-index">03 / THE FINISHING TOUCH</p><h3><span class="lang-en">Room for the details</span><span class="lang-zh">细节，值得多看一眼</span></h3><p><span class="lang-en">Check the edge of your liner or the shape of a brow. Zoom in without leaning closer to the screen.</span><span class="lang-zh">眼线的收尾、眉形的弧度。放大看看，不必一直往屏幕前凑。</span></p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="mirror">
+      <div class="container feature-split">
+        <div class="feature-copy" data-reveal>
+          <p class="eyebrow"><span class="lang-en">JUST YOU</span><span class="lang-zh">镜面</span></p><h2><span class="lang-en">You, as you are.</span><span class="lang-zh">看清自己本来的样子。</span></h2>
+          <ul class="feature-list">
+            <li><span class="tick" aria-hidden="true"></span><div><strong><span class="lang-en">Open. And there you are.</span><span class="lang-zh">打开，就是镜子。</span></strong><span class="lang-en">After camera permission is set, Ressa opens straight to your reflection. Everything you need is on one screen.</span><span class="lang-zh">首次允许使用摄像头后，打开 Ressa 就能照镜子。常用的调节，都在同一个界面里。</span></div></li>
+            <li><span class="tick" aria-hidden="true"></span><div><strong><span class="lang-en">A familiar reflection</span><span class="lang-zh">像照镜子一样自然。</span></strong><span class="lang-en">The front-camera view is mirrored, so moving your hand feels familiar.</span><span class="lang-zh">前置画面以镜像呈现，抬手整理头发、描画眉毛，动作和照镜子时一样顺手。</span></div></li>
+            <li><span class="tick" aria-hidden="true"></span><div><strong><span class="lang-en">No added beauty filters</span><span class="lang-zh">保留真实的细节。</span></strong><span class="lang-en">Ressa adds no skin smoothing, whitening or face reshaping to the camera preview.</span><span class="lang-zh">Ressa 不额外磨皮、美白或调整脸型，让你能看见妆容本身。</span></div></li>
+            <li><span class="tick" aria-hidden="true"></span><div><strong><span class="lang-en">Take your time</span><span class="lang-zh">慢慢看，不用反复点亮。</span></strong><span class="lang-en">The screen stays awake while you use the mirror.</span><span class="lang-zh">使用镜面时，屏幕保持常亮。整理好，再从容出发。</span></div></li>
+          </ul>
+        </div>
+        <figure class="feature-viz mirror-detail" data-reveal>
+          <img class="" src="assets/img/product/mirror-detail.png" width="373" height="434" alt="Ressa illuminated mirror with the example portrait from the product design." loading="lazy" decoding="async">
+          <figcaption><span class="lang-en">Mirror detail · Example portrait</span><span class="lang-zh">镜面局部 · 人像为示例</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="light">
+      <div class="container">
+        <div class="section-head" data-reveal><p class="eyebrow"><span class="lang-en">FIND YOUR LIGHT</span><span class="lang-zh">灯光</span></p><h2><span class="lang-en">A little light makes a difference.</span><span class="lang-zh">把光线，调到舒服的位置。</span></h2><p class="section-sub"><span class="lang-en">Light comes from the screen around your reflection. Adjust its brightness and color without adding a filter to the camera view.</span><span class="lang-zh">镜面四周的屏幕为你补光。调节亮度、选择光色，让照镜子的这一刻更舒服；Ressa 不会给相机画面叠加滤镜。</span></p></div>
+        <div class="light-editorial" data-reveal>
+          <div class="light-controls">
+            <p class="eyebrow"><span class="lang-en">LIGHT, YOUR WAY</span><span class="lang-zh">适合你的光</span></p>
+            <h3><span class="lang-en">Start with Natural. Make it yours.</span><span class="lang-zh">从自然光开始，找到你的偏好。</span></h3>
+            <p><span class="lang-en">Natural light and brightness adjustment are included. Pro adds Warm, Day and a custom color of your own.</span><span class="lang-zh">自然光和亮度调节免费使用。Pro 提供暖光、日光，也支持选择你喜欢的光色。</span></p>
+            <figure class="control-figure"><img class="" src="assets/img/product/brightness.png" width="370" height="58" alt="Brightness control at 70 percent." loading="lazy" decoding="async"><img class="" src="assets/img/product/light-colors.png" width="370" height="101" alt="Light Color: Natural selected, with Warm, Day and Custom available in Pro." loading="lazy" decoding="async"><figcaption><span class="lang-en">Brightness &amp; light color controls</span><span class="lang-zh">亮度与光色调节</span></figcaption></figure>
+            <div class="light-notes">
+              <div class="note-item"><strong><span class="lang-en">As bright as you need</span><span class="lang-zh">亮一点，或柔和一点。</span></strong><span class="lang-en">Slide from 0 to 100%. Your previous screen brightness returns when you leave the mirror.</span><span class="lang-zh">从 0 到 100%，按需要调节。离开镜面后，屏幕会恢复原来的亮度。</span></div>
+              <div class="note-item"><strong><span class="lang-en">Ready for next time</span><span class="lang-zh">下次打开，还是喜欢的光。</span></strong><span class="lang-en">Ressa remembers your brightness and light color.</span><span class="lang-zh">Ressa 会记住你上次使用的亮度和光色，不用每次重新调整。</span></div>
+            </div>
+          </div>
+          <figure class="product-figure picker-figure"><img class="" src="assets/img/product/custom-picker.png" width="402" height="874" alt="Ressa Pro custom light color picker with color grid, opacity and saved swatches." loading="lazy" decoding="async"><figcaption><span class="lang-en">Custom light color · Ressa Pro</span><span class="lang-zh">自定义光色 · Ressa Pro</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="zoom">
+      <div class="container feature-split reverse">
+        <div class="feature-copy" data-reveal>
+          <p class="eyebrow"><span class="lang-en">A CLOSER LOOK</span><span class="lang-zh">细节</span></p><h2><span class="lang-en">The finishing touches, up close.</span><span class="lang-zh">再近一点，细节就清楚了。</span></h2>
+          <ul class="feature-list">
+            <li><span class="tick" aria-hidden="true"></span><div><strong><span class="lang-en">From a quick check to 5× detail</span><span class="lang-zh">从整体，到局部。</span></strong><span class="lang-en">Use 1× and 1.5× for everyday checks. Pro adds 2×, 3× and 5× for a closer look.</span><span class="lang-zh">日常用 1×、1.5× 看整体；想检查眼线、眉毛或唇角，Pro 可放大至 2×、3×、5×。</span></div></li>
+            <li><span class="tick" aria-hidden="true"></span><div><strong><span class="lang-en">Keep the detail in view</span><span class="lang-zh">想看哪里，就移到哪里。</span></strong><span class="lang-en">At 3× and 5×, drag to the detail you want to check. Switch between them without losing your place, or tap Center to return.</span><span class="lang-zh">在 3×、5× 下拖动画面，找到想看的位置。两档之间切换会保留观察位置，也可以轻点回中。</span></div></li>
+            <li><span class="tick" aria-hidden="true"></span><div><strong><span class="lang-en">A fresh view each time</span><span class="lang-zh">每次打开，先看整体。</span></strong><span class="lang-en">Ressa starts at 1× with a view that fills the mirror. Prefer the full camera frame? Change it in settings.</span><span class="lang-zh">每次打开都从 1× 开始，默认画面填满镜面。想看完整的摄像头画面，也可以在设置中切换。</span></div></li>
+          </ul>
+        </div>
+        <figure class="feature-viz product-figure" data-reveal><img class="" src="assets/img/product/pro-mirror.png" width="402" height="874" alt="Ressa Pro interface showing 1×, 1.5×, 2×, 3× and 5× zoom controls." loading="lazy" decoding="async"><figcaption><span class="lang-en">All five zoom levels · Ressa Pro</span><span class="lang-zh">五档倍率 · Ressa Pro</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section freeze-section" id="freeze">
+      <div class="container">
+        <div class="section-head" data-reveal><p class="eyebrow"><span class="lang-en">A MOMENT TO LOOK</span><span class="lang-zh">定格</span></p><h2><span class="lang-en">Pause the mirror. Take a closer look.</span><span class="lang-zh">让画面停一下，慢慢看。</span></h2><p class="section-sub"><span class="lang-en">Check a side profile or compare both sides without holding the same pose. Freeze is included in the free mirror.</span><span class="lang-zh">想看看侧脸，或仔细对比左右妆容？轻点定格，不必一直保持同一个姿势。免费版也可以使用。</span></p></div>
+        <ol class="freeze-steps" data-reveal>
+          <li><span class="step-number">01</span><h3><span class="lang-en">Freeze</span><span class="lang-zh">轻点定格</span></h3><p><span class="lang-en">Hold the current view. The camera pauses while you inspect it.</span><span class="lang-zh">留下当前画面，相机随之暂停。</span></p></li>
+          <li><span class="step-number">02</span><h3><span class="lang-en">Look closer</span><span class="lang-zh">放大细看</span></h3><p><span class="lang-en">Zoom and move around the held frame. Higher magnification is available with Pro.</span><span class="lang-zh">放大、拖动，找到想看的细节。高倍率需使用 Pro。</span></p></li>
+          <li><span class="step-number">03</span><h3><span class="lang-en">Resume</span><span class="lang-zh">回到实时镜面</span></h3><p><span class="lang-en">Tap Resume to return to the live mirror. The temporary frame is cleared without saving a photo.</span><span class="lang-zh">轻点恢复，临时画面随即清除，不会保存到相册。</span></p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="privacy">
+      <div class="container">
+        <div class="section-head" data-reveal><p class="eyebrow"><span class="lang-en">JUST BETWEEN YOU AND YOUR MIRROR</span><span class="lang-zh">隐私</span></p><h2><span class="lang-en">Some moments are just yours.</span><span class="lang-zh">照镜子，是你自己的事。</span></h2><p class="section-sub"><span class="lang-en">Your camera view stays on your iPhone. There is nothing to post, and no account to create.</span><span class="lang-zh">镜面画面留在你的 iPhone 上。无需注册，也没有需要分享的动态。</span></p></div>
+        <div class="privacy-grid" data-reveal>
+          <div class="privacy-item"><span class="privacy-number">01</span><div><strong><span class="lang-en">No photos or recordings</span><span class="lang-zh">不拍照，不录像。</span></strong><span class="lang-en">Ressa does not save camera images or upload them.</span><span class="lang-zh">Ressa 不保存摄像头画面，也不会将它们上传。</span></div></div>
+          <div class="privacy-item"><span class="privacy-number">02</span><div><strong><span class="lang-en">A temporary pause</span><span class="lang-zh">定格，只是暂留。</span></strong><span class="lang-en">A frozen frame stays in memory and is cleared when you resume or leave the mirror.</span><span class="lang-zh">定格画面仅临时保留在内存中，恢复或离开镜面后清除。</span></div></div>
+          <div class="privacy-item"><span class="privacy-number">03</span><div><strong><span class="lang-en">Only when you use it</span><span class="lang-zh">使用时，才开启相机。</span></strong><span class="lang-en">The camera stops when Ressa goes into the background. No microphone or photo-library access is needed.</span><span class="lang-zh">退到后台，相机就会停止。Ressa 不需要麦克风或相册权限。</span></div></div>
+          <div class="privacy-item"><span class="privacy-number">04</span><div><strong><span class="lang-en">No ads. No analytics SDKs.</span><span class="lang-zh">没有广告，也没有统计 SDK。</span></strong><span class="lang-en">Only your light preferences are saved locally. Purchases are handled by Apple.</span><span class="lang-zh">只在本机记住灯光偏好。购买和恢复购买由 Apple 处理。</span></div></div>
+        </div>
+        <p class="section-link" data-reveal><a href="privacy.html"><span class="lang-en">Read our privacy policy ↗</span><span class="lang-zh">阅读隐私政策 ↗</span></a></p>
+      </div>
+    </section>
+
+    <section class="section" id="pro">
+      <div class="container">
+        <div class="section-head" data-reveal><p class="eyebrow"><span class="lang-en">A LITTLE MORE, IF YOU NEED IT</span><span class="lang-zh">RESSA PRO</span></p><h2><span class="lang-en">An everyday mirror. A little extra with Pro.</span><span class="lang-zh">日常免费用，讲究一点选 Pro。</span></h2><p class="section-sub"><span class="lang-en">Start with the essentials. Unlock more magnification and lighting options with a one-time purchase.</span><span class="lang-zh">日常照镜子需要的功能，免费就有。想看得更近、调光更自由，再一次买断 Pro。</span></p></div>
+        <div class="pricing-grid" data-reveal>
+          <article class="price-card">
+            <div class="price-head"><h3>Ressa</h3><p class="price"><span class="amount">$0</span><span class="term"><span class="lang-en">everyday essentials</span><span class="lang-zh">日常基础功能</span></span></p></div>
+            <ul class="price-list">
+              <li><span class="lang-en">Live mirror, without added beauty filters</span><span class="lang-zh">实时镜面，不额外添加美颜</span></li><li><span class="lang-en">1× and 1.5× magnification</span><span class="lang-zh">1×、1.5× 放大</span></li><li><span class="lang-en">Natural light and brightness adjustment</span><span class="lang-zh">自然光与亮度调节</span></li><li><span class="lang-en">Freeze and inspect</span><span class="lang-zh">定格画面，放大查看</span></li><li><span class="lang-en">Remembered light preferences</span><span class="lang-zh">记住灯光偏好</span></li>
+            </ul><a class="btn btn-gold" href="mailto:dev.chua@gmail.com?subject=Ressa%20TestFlight%20beta"><span class="lang-en">Join the beta</span><span class="lang-zh">申请内测</span></a>
+          </article>
+          <article class="price-card is-featured">
+            <span class="price-flag"><span class="lang-en">One-time purchase</span><span class="lang-zh">一次买断，无需订阅</span></span>
+            <div class="price-head"><h3>Ressa Pro</h3><p class="price"><span class="amount">$3.99</span><span class="term"><span class="lang-en">USD reference price</span><span class="lang-zh">美元参考价</span></span></p></div>
+            <ul class="price-list">
+              <li><span class="lang-en">Everything in the free mirror</span><span class="lang-zh">包含免费版全部功能</span></li><li><span class="lang-en">2×, 3× and 5× magnification</span><span class="lang-zh">2×、3×、5× 放大</span></li><li><span class="lang-en">Warm, Day and custom light colors</span><span class="lang-zh">暖光、日光与自定义光色</span></li><li><span class="lang-en">Lock exposure and white balance</span><span class="lang-zh">锁定曝光与白平衡</span></li><li><span class="lang-en">Restore purchases with your Apple Account</span><span class="lang-zh">使用同一 Apple 账户恢复购买</span></li>
+            </ul><a class="btn btn-gold" href="mailto:dev.chua@gmail.com?subject=Ressa%20TestFlight%20beta"><span class="lang-en">Join the beta</span><span class="lang-zh">申请内测</span></a><p class="price-note"><span class="lang-en">Currently in beta. The final price is shown in the app in your local currency.</span><span class="lang-zh">目前处于内测阶段，正式价格以应用内显示的当地货币金额为准。</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="faq">
+      <div class="container container-narrow">
+        <div class="section-head" data-reveal><p class="eyebrow"><span class="lang-en">GOOD TO KNOW</span><span class="lang-zh">常见问题</span></p><h2><span class="lang-en">A few things you might be wondering.</span><span class="lang-zh">你可能还想知道。</span></h2></div>
+        <div class="faq-list" data-reveal>
+<details class="faq-item"><summary><span class="lang-en">Which devices does Ressa support?</span><span class="lang-zh">哪些设备可以使用？</span></summary><p><span class="lang-en">Ressa works on iPhone with iOS 18 or later, in portrait orientation. Allow camera access when you first open the app.</span><span class="lang-zh">支持运行 iOS 18 及以上版本的 iPhone，竖屏使用。首次打开时，需要允许访问摄像头。</span></p></details>
+<details class="faq-item"><summary><span class="lang-en">How do I join the beta?</span><span class="lang-zh">如何申请内测？</span></summary><p><span class="lang-en">Use “Join the beta” to email us. Ressa is currently available through TestFlight; an App Store download is not available yet.</span><span class="lang-zh">点击「申请内测」即可给我们发送邮件。Ressa 目前通过 TestFlight 测试，尚未开放 App Store 下载。</span></p></details>
+<details class="faq-item"><summary><span class="lang-en">Does Freeze save a photo?</span><span class="lang-zh">定格会保存照片吗？</span></summary><p><span class="lang-en">No. Freeze holds a temporary frame in memory so you can inspect it. Resuming or leaving the mirror clears it.</span><span class="lang-zh">不会。定格只把一帧画面暂留在内存中，方便仔细查看；恢复或离开镜面后，画面就会清除。</span></p></details>
+<details class="faq-item"><summary><span class="lang-en">How does the light work?</span><span class="lang-zh">补光是怎样工作的？</span></summary><p><span class="lang-en">The screen around the mirror emits light toward your face. Brightness and color affect that light; Ressa does not apply a color filter to the camera preview. The effect depends on your screen, distance and surroundings.</span><span class="lang-zh">镜面四周的屏幕发出光线，为面部补光。亮度和光色调节作用于这圈光，Ressa 不会给相机预览叠加调色滤镜。实际效果会随屏幕、距离和环境光而变化。</span></p></details>
+<details class="faq-item"><summary><span class="lang-en">How is it different from the Camera app?</span><span class="lang-zh">和系统相机有什么不同？</span></summary><p><span class="lang-en">Ressa brings a mirrored view, screen light, magnification and Freeze together in one place. Its controls are arranged for checking your reflection and touching up makeup.</span><span class="lang-zh">Ressa 把镜像预览、屏幕补光、倍率调节和定格放在同一处，界面围绕照镜子和补妆来设计。</span></p></details>
+<details class="faq-item"><summary><span class="lang-en">Is Pro a subscription?</span><span class="lang-zh">Pro 需要订阅吗？</span></summary><p><span class="lang-en">No. Pro is a one-time purchase for the listed features. You can restore it with the same Apple Account. The free mirror remains available without purchasing Pro.</span><span class="lang-zh">不需要。Pro 一次购买即可解锁上面列出的功能，之后可以用同一 Apple 账户恢复购买。不购买 Pro，也可以继续使用免费镜面。</span></p></details>
+</div></div></section>
+    <section class="cta-final">
+      <div class="container" data-reveal><div class="cta-glow" aria-hidden="true"></div>
+        <h2><span class="lang-en">Your mirror. Wherever the day takes you.</span><span class="lang-zh">带上这面镜子，从容出门。</span></h2>
+        <p class="cta-sub"><span class="lang-en">Ressa is in beta. Come try it, and tell us how it fits into your day.</span><span class="lang-zh">Ressa 正在内测。欢迎来试试，也告诉我们，你希望这面镜子是什么样。</span></p>
+        <div class="hero-cta"><a class="btn btn-gold" href="mailto:dev.chua@gmail.com?subject=Ressa%20TestFlight%20beta"><span class="lang-en">Join the beta</span><span class="lang-zh">申请内测</span></a><a class="btn btn-ghost" href="mailto:dev.chua@gmail.com?subject=Ressa%20feedback"><span class="lang-en">Get in touch</span><span class="lang-zh">联系开发者</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <span class="brand-badge"><img src="assets/img/favicon.png" alt="Ressa logo" width="34" height="34"></span>
+          <span>RESSA</span>
+        </a>
+        <p class="footer-tag">
+          <span class="lang-en">Your everyday mirror.</span>
+          <span class="lang-zh">你的随身化妆镜。</span>
+        </p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#mirror"><span class="lang-en">Mirror</span><span class="lang-zh">镜面</span></a>
+        <a href="#light"><span class="lang-en">Light</span><span class="lang-zh">灯光</span></a>
+        <a href="#zoom"><span class="lang-en">Details</span><span class="lang-zh">细节</span></a>
+        <a href="#pro"><span class="lang-en">Pro</span><span class="lang-zh">Pro</span></a>
+        <a href="privacy.html"><span class="lang-en">Privacy</span><span class="lang-zh">隐私</span></a>
+        <a href="terms.html"><span class="lang-en">Terms</span><span class="lang-zh">条款</span></a>
+      </nav>
+      <div class="footer-meta">
+        <p>© 2026 Chua</p>
+        <p><a href="mailto:dev.chua@gmail.com">dev.chua@gmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/gsap/gsap.min.js"></script>
+  <script src="assets/vendor/gsap/ScrollTrigger.min.js"></script>
+  <script src="assets/js/i18n.js?v=1"></script>
+  <script src="assets/js/main.js?v=2"></script>
+</body>
+</html>

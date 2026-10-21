@@ -41,7 +41,7 @@ python3 -m http.server 8742
 - `../../Ressa/README.md`：功能、权限、免费 / Pro 边界。
 - `../../Ressa/Docs/UI_IMPLEMENTATION.md`：最新相机控制、1× 默认裁切方式与 Figma 映射。
 - `../../Ressa/Docs/FREEZE_IMPLEMENTATION.md`：定格保持当前倍率、临时内存画面、恢复与清除规则。
-- `../../Ressa/Docs/PURCHASE_IMPLEMENTATION.md`：内购行为。$3.99 标为美元参考价，正式价格以应用内显示为准。
+- `../../Ressa/Docs/PURCHASE_IMPLEMENTATION.md`：内购行为。Pro 三档：$0.99/月、$3.99/六个月订阅与 $5.99 终身买断，均标为美元参考价，正式价格以应用内显示为准。
 
 2026-10-13 改版同时删除了原来“1× 无裁切”“定格自动跳到 3×”等不准确表述 / 演示，并重写中英文营销文案。法律页面只同步了页脚品牌文案和样式版本，没有修改法律条文。
 
